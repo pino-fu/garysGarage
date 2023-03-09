@@ -10,5 +10,9 @@ namespace Garage
         {
           Console.WriteLine("glugglugglugchugglug");
         }
+         public override void Drive()
+        {
+          Console.WriteLine($"The Ram carries plywood for a home project..... glugglugglugchugglug. (It's {MainColor}).");
+        }
     }
 }

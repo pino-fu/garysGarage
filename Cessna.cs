@@ -9,5 +9,9 @@ namespace Garage
         {
             Console.WriteLine("Zzzzrrraaawwwwmannnndude");
         }
+         public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Cessna soars by..... Zzzzrrraaawwwwmannnndude.");
+        }
     }
 }

@@ -9,6 +9,14 @@ namespace Garage
         {
             Console.WriteLine("Vruuuuuhm");
         }
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Zero zaps by.... Vruuuuuhm?");
+        }
+        public override void Stop()
+        {
+            Console.WriteLine($"DAAAANG! That Zero stopped so fast that the rider flew over the handlbars.");
+        }
 
     }
 }
